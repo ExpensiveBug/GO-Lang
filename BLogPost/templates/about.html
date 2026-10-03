@@ -1,0 +1,32 @@
+{{ define "title" }} About {{ end }}
+
+{{ define "content" }}
+<div class="text-center mb-12">
+    <h1 class="text-4xl font-bold mb-4"> About MyBlog </h1>
+    <p class="text-lg text-gray-600 dark:text-gray-400"> A simple platform to write, share and discover ideas. </p>
+</div>
+<div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 mb-8">
+    <h2 class="text-2xl font-bold mb-4"> What is MyBlog? </h2>
+    <p class="text-gray-600 dark:text-gray-300 leading-7"> MyBlog is a simple blogging platform where users can create
+        and share their thoughts, ideas and knowledge through blog posts. Users can create an account, publish posts,
+        edit their content and manage their posts from one place. </p>
+</div>
+<div class="grid md:grid-cols-3 gap-6">
+    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+        <h3 class="text-xl font-bold mb-3"> Write </h3>
+        <p class="text-gray-600 dark:text-gray-300 leading-6"> Create blog posts and share your knowledge, experiences
+            and ideas with other readers. </p>
+    </div>
+    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+        <h3 class="text-xl font-bold mb-3"> Share </h3>
+        <p class="text-gray-600 dark:text-gray-300 leading-6"> Publish your posts and make your ideas available to
+            people who are interested in your content. </p>
+    </div>
+    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+        <h3 class="text-xl font-bold mb-3"> Learn </h3>
+        <p class="text-gray-600 dark:text-gray-300 leading-6"> Discover different topics and learn from the experiences
+            and knowledge shared by other users. </p>
+    </div>
+</div>
+
+{{ end }}
